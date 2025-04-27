@@ -15,7 +15,7 @@ class NotesView extends StatelessWidget {
                 RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
             context: context,
             builder: (context) {
-              return AddNoteButton();
+              return const AddNoteButton();
             },
           );
         },

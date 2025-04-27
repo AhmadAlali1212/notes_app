@@ -1,4 +1,3 @@
-import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:notes_app/constants.dart';
 
@@ -12,7 +11,7 @@ class CustomTextBotton extends StatelessWidget {
       height: 55,
       decoration: BoxDecoration(
           color: KPrimaryColor, borderRadius: BorderRadius.circular(8)),
-      child: Center(
+      child: const Center(
         child: Text(
           'Add',
           style: TextStyle(
