@@ -6,6 +6,7 @@ class EditNoteView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(color: Colors.black, child: const EditNoteViewBody());
+    return Scaffold(
+        backgroundColor: Colors.black, body: const EditNoteViewBody());
   }
 }
